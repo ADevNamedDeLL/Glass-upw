@@ -61,4 +61,24 @@ Then open your browser and navigate to:
 ```bash
 http://localhost:3000
 ```
+
 ---
+## 🛠️ Customization
+Update the following sections inside ```public/index.html``` to personalize:
+*Hero Section (#hero)
+
+*About Section (```#about```)
+
+*Projects Section (```#projects```)
+
+*Skills Section (```#skills```)
+
+*Experience Section (```#experience```)
+
+*Testimonials (```#testimonials```)
+
+*Contact form and links
+
+You can replace profile images, skill icons, project previews inside the ```public/assets/``` folder.
+
+
