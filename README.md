@@ -28,19 +28,6 @@
 
 ---
 
-## 📁 Project Structure
-
-├── public
-│ ├── assets/
-│ ├── css/
-│ ├── js/
-│ └── index.html
-├── server.js
-├── package.json
-└── README.md
-
----
-
 ## 📦 Setup
 
 ### 1. Clone the Repository
