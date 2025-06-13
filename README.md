@@ -54,17 +54,17 @@ http://localhost:3000
 Update the following sections inside ```public/index.html``` to personalize:
 *Hero Section (#hero)
 
-*About Section (```#about```)
+* About Section (```#about```)
 
-*Projects Section (```#projects```)
+* Projects Section (```#projects```)
 
-*Skills Section (```#skills```)
+* Skills Section (```#skills```)
 
-*Experience Section (```#experience```)
+* Experience Section (```#experience```)
 
-*Testimonials (```#testimonials```)
+* Testimonials (```#testimonials```)
 
-*Contact form and links
+* Contact form and links
 
 You can replace profile images, skill icons, project previews inside the ```public/assets/``` folder.
 
