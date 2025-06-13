@@ -1,0 +1,16 @@
+{
+  "name": "glass_upw",
+  "version": "1.0.0",
+  "description": "the ultimate portfolio website with a glass theme",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "ADevnamedDeLL",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | DeLL</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+    <!-- Color blobs container -->
+    <div id="blobs-container">
+        <div class="blob red"></div>
+        <div class="blob cyan"></div>
+        <div class="blob blue"></div>
+        <div class="blob purple"></div>
+        <div class="blob red"></div>
+        <div class="blob cyan"></div>
+        <div class="blob blue"></div>
+        <div class="blob purple"></div>
+    </div>
+
+
+  <header class="navbar">
+    <div class="logo">DeLL</div>
+    <nav class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="assets/resume.pdf" download>Resume</a>
+    </nav>
+    <button id="darkToggle" class="toggle-theme" aria-label="Toggle Dark Mode">🌙</button>
+  </header>
+
+  <div class="acrylic-container">
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+      <img src="assets/Default_pfp.jpg" alt="Profile" class="profile-img" />
+      <h1>Hi, I'm DeLL</h1>
+      <h3>Developer | Designer | Creator</h3>
+      <a href="#projects" class="cta-btn">View My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>Brief bio about yourself...</p>
+      <div class="tech-overview">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+      <div class="fun-facts">
+        <ul>
+          <li>⚡ Loves building interactive UI</li>
+          <li>🎮 Gamer & Tech Enthusiast</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section glass">
+      <h2>Skills</h2>
+
+      <div class="skills-category">
+        <h3>Languages</h3>
+        <div class="skill-icons">
+        <img src="assets/html.png" alt="html" title="html" />
+        <img src="assets/css.png" alt="css" title="css" />
+        <img src="assets/js.png" alt="JavaScript" title="JavaScript" />
+        <img src="assets/python.png" alt="Python" title="Python" />
+        <img src="assets/c-sharp.png" alt="c#" title="c#" />
+        <img src="assets/lua.png" alt="lua" title="lua" />
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h3>Frameworks</h3>
+        <div class="skill-icons">
+          <img src="assets/nodejs.png" alt="Node.js" title="Node.js" />
+          <img src="assets/express-js.png" alt="Express" title="Express" />
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h3>Tools</h3>
+        <div class="skill-icons">
+          <img src="assets/git.png" alt="Git" title="Git" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="projtitle">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>Short project description for project one...</p>
+          <div>🔧 HTML, CSS, JavaScript</div>
+          <img src="preview1.png" alt="Project One Preview" />
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener noreferrer">Live</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>Short project description for project two...</p>
+          <div>🔧 React, Node.js</div>
+          <img src="preview2.png" alt="Project Two Preview" />
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener noreferrer">Live</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Project Three</h3>
+          <p>Short project description for project three...</p>
+          <div>🔧 Python, Flask</div>
+          <img src="preview3.png" alt="Project Three Preview" />
+          <div class="project-links bottom-links">
+            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="morelink">
+        <a href="https://github.com/yourusername" target="_blank">More...</a>
+      </div>
+      
+    </section>
+
+    <!--Experience Section-->
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="company-card">
+        <h3>Company Name</h3>
+        <p>Role & Duration</p>
+        <ul>
+          <li>✅ Task/Contribution</li>
+        </ul>
+      </div>
+    </section>
+
+    <!--Testimonials Section-->
+    <section id="testimonials" class="section">
+        <div class="testimontitle">
+            <h2>Testimonials</h2>
+        </div>
+        <blockquote id="testimonial-block" class="testimonial-block">
+            <p id="quote-text">"Loading quote..."</p>
+            <cite id="quote-author">— Please wait</cite>
+        </blockquote>
+    </section>
+
+
+
+
+    <!--Contact Section-->
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <div class="social-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="mailto:you@example.com">Email</a>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <p>© 2025 DeLL. All rights reserved.</p>
+      <div class="legal-links">
+        <a href="#">Privacy</a> | <a href="#">Terms</a>
+      </div>
+    </footer>
+  </div>
+
+  <button id="backToTop" title="Back to Top" aria-label="Back to Top">⬆</button>
+  <div id="blobs-container">
+        <div class="blob red"></div>
+        <div class="blob cyan"></div>
+        <div class="blob blue"></div>
+        <div class="blob purple"></div>
+        <div class="blob red"></div>
+        <div class="blob cyan"></div>
+        <div class="blob blue"></div>
+        <div class="blob purple"></div>
+    </div>
+
+  <script src="js/animBlobs.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/quote.js"></script>
+</body>
+</html>
